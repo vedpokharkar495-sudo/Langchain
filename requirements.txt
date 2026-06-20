@@ -1,0 +1,14 @@
+
+# langchain framework
+langchain
+
+# langchain openai framework
+langchain-openai
+
+
+# python .env 
+python-dotenv
+
+
+
+
