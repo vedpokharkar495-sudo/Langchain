@@ -85,11 +85,11 @@ Tools
 
 ---
 
-Core Concept 1: LLM
+## Core Concept 1: LLM
 
 An LLM is simply an AI model.
 
-Examples:
+**Examples:**
 
 GPT-4
 
@@ -112,7 +112,7 @@ LLM
      ▼
 Answer
 
-Example:
+**Example:**
 
 Input:
 
@@ -125,11 +125,11 @@ Python is a programming language.
 
 ---
 
-Core Concept 2: Prompt
+## Core Concept 2: Prompt
 
 A prompt is simply the instruction you give the LLM.
 
-Example:
+**Example:**
 
 Explain Machine Learning.
 
@@ -142,11 +142,11 @@ Better prompt = Better answer.
 
 ---
 
-Core Concept 3: Model
+## Core Concept 3: Model
 
 LangChain connects to different models.
 
-Example:
+**Example:**
 
 OpenAI
 
@@ -163,57 +163,30 @@ Changing the model often requires changing only a few lines of code.
 
 ---
 
-First LangChain Program
-
-Install
-
-pip install langchain
-pip install langchain-openai
-pip install python-dotenv
 
 
----
-
-Create a .env file:
-
-OPENAI_API_KEY=your_api_key
-
----
-
-Temperature
+## Temperature
 
 Temperature controls creativity.
 
-0.0
+- 0.0 : Very factual.
 
-Very factual.
+- 0.5 : Balanced.
 
-0.5
+- 1.0 : Creative.
 
-Balanced.
+**Example:**
 
-1.0
+**Question:** Write a story.
 
-Creative.
+> Temperature = 0  --> Simple story
 
-Example:
-
-Question:
-
-Write a story.
-
-Temperature = 0
-
-Simple story
-
-Temperature = 1
-
-Creative and imaginative story
+> Temperature = 1 --> Creative and imaginative story
 
 
 ---
 
-Prompt Templates
+## Prompt Templates
 
 Instead of writing prompts manually every time, use templates.
 
@@ -222,11 +195,11 @@ Instead of writing prompts manually every time, use templates.
 
 ---
 
-Why Prompt Templates?
+## Why Prompt Templates?
 
 Suppose 1,000 users ask different questions.
 
-Instead of writing:
+**Instead of writing:**
 
 "Explain Python"
 
