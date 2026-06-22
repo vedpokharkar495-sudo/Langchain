@@ -104,23 +104,12 @@ Gemini
 
 It takes text as input.
 
-Question
-     │
-     ▼
-LLM
-     │
-     ▼
-Answer
 
 **Example:**
 
-Input:
+Input: What is Python?
 
-What is Python?
-
-Output:
-
-Python is a programming language.
+Output: Python is a programming language.
 
 
 ---
@@ -169,19 +158,19 @@ Changing the model often requires changing only a few lines of code.
 
 Temperature controls creativity.
 
-- 0.0 : Very factual.
+* 0.0 : Very factual.
 
-- 0.5 : Balanced.
+* 0.5 : Balanced.
 
-- 1.0 : Creative.
+* 1.0 : Creative.
 
 **Example:**
 
 **Question:** Write a story.
 
-> Temperature = 0  --> Simple story
+* Temperature = 0  --> Simple story
 
-> Temperature = 1 --> Creative and imaginative story
+* Temperature = 1 --> Creative and imaginative story
 
 
 ---
